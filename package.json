@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.1",
+  "description": "Bot U.R.A.",
+  "main": "./src/index.js",
+  "author": "kingaspx",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "src/index.js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.6.0",
+    "nexe": "^4.0.0-beta.18",
+    "sharp": "^0.28.3"
+  }
+}
